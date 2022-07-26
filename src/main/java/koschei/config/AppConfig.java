@@ -11,17 +11,6 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfig {
 
     @Bean
-    public static Island2 getIsland(Wood3 wood) {
-        return new Island2(wood);
-    }
-    @Bean
-    public static Wood3 getWood(Rabbit4 rabbit) { return new Wood3(rabbit); }
-    @Bean
-    public static Rabbit4 getDuck(Duck5 duck) { return new Rabbit4(duck); }
-    @Bean
-    public static Duck5 getEgg(Egg6 egg) { return new Duck5(egg); }
-    @Bean
-    public static Egg6 getNeedle(Needle7 needle) { return new Egg6(needle); }
-    @Bean
-    public static Needle7 getDeth(Deth8 deth) { return new Needle7(deth); }
+    public static Island2 getIsland(Wood3 wood) { return new Island2(wood); }
+
 }
